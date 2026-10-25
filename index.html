@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>海角解锁器 · 安装</title>
+<style>
+  :root{
+    --bg:#0b1020; --card:#141a2e; --line:rgba(178,193,255,.18);
+    --txt:#e6eaff; --dim:#9aa6d4; --accent:#b2c1ff;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{
+    margin:0;min-height:100vh;padding:28px 18px 48px;
+    background:radial-gradient(circle at 30% 0%,#1a2240 0%,var(--bg) 55%);
+    color:var(--txt);
+    font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  .wrap{max-width:520px;margin:0 auto}
+  h1{
+    margin:0 0 6px;font-size:22px;font-weight:700;
+    background:linear-gradient(180deg,#fff,#aebbff 80%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .sub{color:var(--dim);font-size:13px;margin-bottom:26px}
+  .card{
+    background:linear-gradient(165deg,rgba(22,30,54,.9),rgba(11,15,30,.96));
+    border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:14px;
+    box-shadow:0 12px 34px rgba(0,0,0,.45),inset 0 1px 0 rgba(220,230,255,.1);
+  }
+  .btn{
+    display:flex;align-items:center;gap:12px;
+    padding:16px 18px;margin:10px 0;border-radius:14px;
+    background:linear-gradient(135deg,rgba(178,193,255,.18),rgba(255,214,232,.10));
+    border:1px solid rgba(178,193,255,.34);
+    color:var(--txt);text-decoration:none;font-weight:700;font-size:16px;
+    transition:all .16s;
+  }
+  .btn:active{background:rgba(178,193,255,.3);transform:scale(.985)}
+  .btn .ico{font-size:19px;opacity:.95}
+  .btn .meta{margin-left:auto;font-size:11px;font-weight:400;color:var(--dim)}
+  .btn.primary{
+    background:linear-gradient(135deg,#3b4a8f,#2a3566);
+    border-color:rgba(178,193,255,.6);
+    box-shadow:0 0 22px rgba(150,170,255,.28);
+  }
+  h2{font-size:13px;font-weight:700;color:var(--accent);margin:22px 0 8px;letter-spacing:.5px}
+  ol,ul{margin:8px 0;padding-left:20px;color:var(--dim);font-size:13.5px}
+  li{margin:6px 0}
+  code{
+    background:rgba(178,193,255,.1);padding:2px 6px;border-radius:5px;
+    font-size:12.5px;color:#c9d4ff;word-break:break-all;
+  }
+  .hint{
+    margin-top:10px;padding:10px 12px;border-radius:10px;
+    background:rgba(255,214,232,.06);border:1px solid rgba(255,214,232,.2);
+    font-size:12.5px;color:#e8c8d8;
+  }
+  .foot{margin-top:30px;text-align:center;color:#5b678f;font-size:11.5px}
+  hr{border:0;border-top:1px solid var(--line);margin:18px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>海角解锁器</h1>
+  <div class="sub">付费视频解密播放 · 完整下载 · 长按 2 倍速</div>
+
+  <div class="card">
+    <a class="btn primary" href="hj_unlock.user.js">
+      <span class="ico">⚡</span>
+      <span>安装脚本</span>
+      <span class="meta">v4.5.0</span>
+    </a>
+    <div class="hint">
+      点上面按钮后，脚本管理器会弹出安装页。<br>
+      如果没反应，长按按钮 → 复制链接 → 到脚本管理器里「从 URL 导入」。
+    </div>
+  </div>
+
+  <h2>首次使用</h2>
+  <div class="card">
+    <ol>
+      <li>安装后在脚本管理器里确认已启用</li>
+      <li>打开海角站点（任意镜像域名都行）</li>
+      <li>弹出激活码 → 输入管理员给你的码</li>
+      <li>右下角出现「希」字光球 → 点开 → 播放</li>
+    </ol>
+  </div>
+
+  <h2>使用说明</h2>
+  <div class="card">
+    <ul>
+      <li><b>▶ 播放</b> — 解密并播放当前帖子/短视频</li>
+      <li><b>⬇ 下载</b> — 完整下载到本地（12 并发）</li>
+      <li><b>⤢ 放大</b> — 播放器全屏</li>
+      <li><b>⚙ 凭证</b> — 填自己的已购帖子 id</li>
+    </ul>
+    <hr>
+    <ul>
+      <li>长按播放画面<b>左右两侧</b> → 2 倍速</li>
+      <li>长视频会先预缓存约 8%，期间可以切页浏览</li>
+      <li>光球可以拖动，位置会记住</li>
+    </ul>
+  </div>
+
+  <div class="foot">
+    仅限个人学习使用
+  </div>
+</div>
+</body>
+</html>
